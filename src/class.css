@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1) ;
+  }
+}
+
+.Hover{
+    background-color: yellow;
+    padding: 20px;
+    display: none;
+  }
+    
+  span:hover + .Hover {
+    display: block;
+  }
+
+
+.bar {
+ 
+  display:flow-root;
+  flex-direction: column ;
+  
+  background-color: #282c34;
+  
+  font-size: calc(01px + 1.5vmin);
+  color: white;
+  text-align: center;
+
+}
+
+.center{
+  align-items: center;
+}
+
+
+.App-head {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+  font-size: calc(01px + 2vmin);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 99vh;
+  display: flex;
+  flex-direction: column;
+  
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Head{
+
+  background-color: bisque;
+  color: black;
+  align-self: center;
+  text-size-adjust: inherit;
+  text-shadow: 2px;
+}
+
+.body
+{
+text-size-adjust: inherit;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+
+.material-icons {
+  font-size: 2.4em;
+  cursor: pointer;
+}
+
+.card {
+  width: 300px;
+}
+
+.card .card-image .card-title {
+  color: black;
+  font-weight: 400
+}
+
+.cart {
+  margin-top: 40px;
+}
+
+.collection .collection-item {
+  display: flex;
+}
+
+.collection-item.avatar .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ee6e73;
+  display: block;
+  margin-bottom: 20px;
+
+}
+
+.collection .collection-item img {
+  width: 150px;
+  margin-right: 25px;
+}
+
+.item-desc {
+  align-self: center;
+}
