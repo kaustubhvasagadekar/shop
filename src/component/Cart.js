@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {
   removeItem,
   addQuantity,
   subtractQuantity
 } from "./actions/cartActions";
-import { Button, Container, Card, CssBaseline, CardContent, CardMedia, Divider, Grid } from "@material-ui/core";
+import { Button, Container, Card, CssBaseline, CardContent, CardMedia, Divider, Grid, Paper } from "@material-ui/core";
 import Recipe from "./Recipe";
 
 
@@ -64,15 +64,15 @@ class Cart extends Component {
     return (
       <React.Fragment>
         <CssBaseline />
-        <Container maxWidth="sm">
-          <Card inlist>
-            <h5>You have ordered:</h5>
-            <ul className="collection">
+        <Container maxWidth="xl" style={{paddingTop:"15px"}}>
+          <Paper inlist  elevation={0}>
+            <h5 style={{padding:"20px" }} >You have ordered:</h5>
+            <ul className="collection" >
               <CardContent>
-                <CardMedia>{addedItems}</CardMedia>
+                <Paper>{addedItems}</Paper>
               </CardContent>
             </ul>
-            <Divider variant="fullWidth" inlist  />
+            
             <Grid
               container
               direction="column"
@@ -81,7 +81,7 @@ class Cart extends Component {
             >
               <Recipe />
             </Grid>
-          </Card>
+          </Paper>
 
           <Container></Container>
         </Container>
@@ -110,3 +110,8 @@ const mapDispatchToProps = dispatch => {
   };
 };
 export default connect(mapStateToProps, mapDispatchToProps)(Cart);
+
+
+
+
+// <Divider variant="fullWidth" inlist  />

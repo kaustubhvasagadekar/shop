@@ -19,26 +19,26 @@ class Recipe extends Component {
   render() {
     return (
       <div className="container" style={{ padding: "5%" }}>
-        <Grid container direction="column" justify="flex-end" alignItems="center">
-          <div className="collection">
-            <li className="collection-item">
-              <label>
+        <Grid container direction="row" justify="flex-end" alignItems="center">
+          <div className="collection" style={{paddingRight:"15px"}}>
+            <li className="collection-item"  >
+              <label >
                 <input
                   type="checkbox"
                   ref="shipping"
                   onChange={this.handleChecked}
                 />
-                <span>Shipping(+Rs6)</span>
+                <span >Shipping(+Rs60)</span>
               </label>
             </li>
 
-            <br />
+         
 
-            <li className="collection-item">
-              <b>Total: {this.props.total} $</b>
+            <li className="collection-item" style={{paddingLeft:"20px", paddingTop:"10px" }}>
+              <b>Total: {this.props.total} Rs</b>
             </li>
           </div>
-          <br />
+         
 
           <div className="checkout">
             <Button

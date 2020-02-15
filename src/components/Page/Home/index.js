@@ -4,7 +4,7 @@ import Contact from "../Contact/index";
 import Products from "../Products/index";
 import "../../../class.css";
 import Blog from "../../headblog/Blog";
-import { Divider, Toolbar } from "@material-ui/core";
+import { Divider } from "@material-ui/core";
 import AdSense from "react-adsense-ad";
 // import Home from "../Home/index";
 

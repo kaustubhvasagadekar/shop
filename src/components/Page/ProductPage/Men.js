@@ -12,11 +12,6 @@ import {
 
 } from "@material-ui/core";
 
-
-
-
-
-
 import storeProducts from "../../../data";
 
 
@@ -53,11 +48,13 @@ const useStyles = makeStyles({
 
 export default function Men(props) {
   const locationRef = props.location.pathname.slice(1);
-  const productsByRef = storeProducts.filter(ref => {
+  const productsByRef = 
+  storeProducts.filter.apply(ref => {
     if(ref.category === locationRef) {
-      return ref;
+      return ref;}
     }
-  });
+  );
+
 
 
  
