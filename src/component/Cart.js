@@ -6,7 +6,7 @@ import {
   addQuantity,
   subtractQuantity
 } from "./actions/cartActions";
-import { Button, Container, Card, CssBaseline, CardContent, CardMedia, Divider, Grid, Paper } from "@material-ui/core";
+import { Button, Container,  CssBaseline, CardContent, CardMedia, Divider, Grid, Paper } from "@material-ui/core";
 import Recipe from "./Recipe";
 
 
