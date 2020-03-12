@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.a30f1481.chunk.css",
-    "main.js": "/static/js/main.56f6ef9e.chunk.js",
-    "main.js.map": "/static/js/main.56f6ef9e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.28e84106.js",
-    "runtime-main.js.map": "/static/js/runtime-main.28e84106.js.map",
-    "static/js/2.d4c292d6.chunk.js": "/static/js/2.d4c292d6.chunk.js",
-    "static/js/2.d4c292d6.chunk.js.map": "/static/js/2.d4c292d6.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.2f80a49f612e740a68a964907918ad14.js": "/precache-manifest.2f80a49f612e740a68a964907918ad14.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.a30f1481.chunk.css.map": "/static/css/main.a30f1481.chunk.css.map",
-    "static/js/2.d4c292d6.chunk.js.LICENSE": "/static/js/2.d4c292d6.chunk.js.LICENSE",
-    "static/media/kids0.png": "/static/media/kids0.85ce531f.png",
-    "static/media/men0.png": "/static/media/men0.07ab4a9a.png",
-    "static/media/women0.png": "/static/media/women0.30a8918f.png"
+    "main.css": "/react-myshop/static/css/main.a30f1481.chunk.css",
+    "main.js": "/react-myshop/static/js/main.fbdcb39a.chunk.js",
+    "main.js.map": "/react-myshop/static/js/main.fbdcb39a.chunk.js.map",
+    "runtime-main.js": "/react-myshop/static/js/runtime-main.50ce0f6c.js",
+    "runtime-main.js.map": "/react-myshop/static/js/runtime-main.50ce0f6c.js.map",
+    "static/js/2.5930cf12.chunk.js": "/react-myshop/static/js/2.5930cf12.chunk.js",
+    "static/js/2.5930cf12.chunk.js.map": "/react-myshop/static/js/2.5930cf12.chunk.js.map",
+    "index.html": "/react-myshop/index.html",
+    "precache-manifest.13c31533182f2490d4b9b84b9e2cd844.js": "/react-myshop/precache-manifest.13c31533182f2490d4b9b84b9e2cd844.js",
+    "service-worker.js": "/react-myshop/service-worker.js",
+    "static/css/main.a30f1481.chunk.css.map": "/react-myshop/static/css/main.a30f1481.chunk.css.map",
+    "static/js/2.5930cf12.chunk.js.LICENSE": "/react-myshop/static/js/2.5930cf12.chunk.js.LICENSE",
+    "static/media/kids0.png": "/react-myshop/static/media/kids0.85ce531f.png",
+    "static/media/men0.png": "/react-myshop/static/media/men0.07ab4a9a.png",
+    "static/media/women0.png": "/react-myshop/static/media/women0.30a8918f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.28e84106.js",
-    "static/js/2.d4c292d6.chunk.js",
+    "static/js/runtime-main.50ce0f6c.js",
+    "static/js/2.5930cf12.chunk.js",
     "static/css/main.a30f1481.chunk.css",
-    "static/js/main.56f6ef9e.chunk.js"
+    "static/js/main.fbdcb39a.chunk.js"
   ]
 }

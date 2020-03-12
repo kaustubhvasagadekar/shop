@@ -18,8 +18,8 @@ class Recipe extends Component {
 
   render() {
     return (
-      <div className="container" style={{ padding: "5%" }}>
-        <Grid container direction="row" justify="flex-end" alignItems="center">
+     
+        <Grid container direction="row" justify="flex-end" alignItems="center" style={{ padding: "5%" }}>
           <div className="collection" style={{paddingRight:"15px"}}>
             <li className="collection-item"  >
               <label >
@@ -51,7 +51,7 @@ class Recipe extends Component {
             </Button>
           </div>
         </Grid>
-      </div>
+     
     );
   }
 }
